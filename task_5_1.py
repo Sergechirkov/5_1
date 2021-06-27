@@ -2,7 +2,7 @@
 import pprint                                                                                                           
 pp = pprint.PrettyPrinter(indent=5)
 london_co = { "r1" : { "vendor" : "Cisco", "ios": "15.4" }, "r2" : {"vendor" : "Cisco", "ios" : "15.5"} } 
-device = input ("введите название устройства")  
+device = input ("введите название сетевого устройства ")  
 pp.pprint(london_co[device]) 
 """
 Задание 5.1
